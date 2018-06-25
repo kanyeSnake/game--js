@@ -1,4 +1,4 @@
-
+var max = "max"
     
     
     var canvas = document.getElementById('game');
