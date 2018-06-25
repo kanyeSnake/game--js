@@ -72,12 +72,12 @@
       var drawBoss = function(){
         if(snake.cells.length === 10)
         {context.clearRect(0, 0, canvas.width, canvas.height),
-          context.drawImage(drakeFace,apple.x, apple.y, grid+30,  grid+30 )
+          context.drawImage(drakeFace,apple.x, apple.y, grid+15,  grid+15 )
         }
       }
       drawBoss()
 
-
+var blah = "blah";
 
       // eat boss
       // if (cell.x === apple.x && cell.y === apple.y) {
@@ -102,8 +102,8 @@
           //   snake.maxCells+=4;}
         if (cell.x === apple.x && cell.y === apple.y) {
           snake.maxCells++;
-          apple.x = getRandomInt(0, 10) * grid;
-          apple.y = getRandomInt(0, 10) * grid;
+          apple.x = getRandomInt(0, 20) * grid;
+          apple.y = getRandomInt(0, 20) * grid;
         // } if(snake.cells.length === 5 && cell.x === apple.x && cell.y === apple.y ) {
         //   snake.maxCells+=5;
       }
