@@ -22,7 +22,6 @@
 
     };
 
-    var wat = 23
 
     
 
@@ -77,7 +76,6 @@
       }
       drawBoss()
 
-var blah = "blah";
 
       // eat boss
       // if (cell.x === apple.x && cell.y === apple.y) {
@@ -107,7 +105,7 @@ var blah = "blah";
         // } if(snake.cells.length === 5 && cell.x === apple.x && cell.y === apple.y ) {
         //   snake.maxCells+=5;
       }
-    console.log(snake.cells.length)}
+    // console.log(snake.cells.length)}
 
       eatApple()
 
