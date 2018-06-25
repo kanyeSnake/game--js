@@ -1,6 +1,4 @@
-var max = "max"
-    
-    
+  
     var canvas = document.getElementById('game');
     var context = canvas.getContext('2d');
     let kanyeFace = new Image();
